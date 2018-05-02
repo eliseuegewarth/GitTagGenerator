@@ -1,0 +1,7 @@
+language: generic
+cache:
+  directories:
+    - "2018.1-Dulce_App"
+    - "2018.1-Dulce_API"
+script:
+  - ./release_gen.sh
