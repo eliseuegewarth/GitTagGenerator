@@ -4,4 +4,4 @@ cache:
     - "2018.1-Dulce_App"
     - "2018.1-Dulce_API"
 script:
-  - ./release_gen.sh
+  - ./git_tag_gen.sh
