@@ -1,11 +1,11 @@
-# DulceReleaseGenerator
-Este projeto tem o intuito de criar Releases (`git tags`) Dos repositórios Dulce App e Dulce API
+# GitTagGenerator
+Este projeto tem o intuito de criar tags tags automaticamente.
 
 ## How-To
 
 ### Configuração de variáveis de ambiente
 
-- Para adicionar variaveis ambiente ao seu sistema linux, basta usar `export NOME_DE_VAR="valor"`.
+- Para adicionar variaveis ambiente ao seu sistema linux, basta usar `export VAR_NAME="value"`.
 - Para persistir essa variavel ambiente, basta armazenar o comando indicado no arquivo `~/.bashrc` do seu usuário.
 - Para exportar estas variáveis de ambiente no ambiente do Travis CI, basta acessar as configurações do build.
 
