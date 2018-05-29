@@ -2,6 +2,13 @@ language: generic
 cache:
   directories:
     - "2018.1-Dulce_App"
-    - "2018.1-Dulce_API"
+    - "2018.1-Dulce_User"
+    - "2018.1-Dulce_Schedule"
+    - "2018.1-Dulce_Report"
+    - "2018.1-Dulce_Sector"
+    - "2018.1-Dulce_Hospital"
+    - "2018.1-Dulce_External_Services"
+    - "2018.1-Dulce_Login"
+    - "2018.1-Dulce_TagGenerator"
 script:
   - ./git_tag_gen.sh
