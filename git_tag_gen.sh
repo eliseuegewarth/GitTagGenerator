@@ -50,7 +50,7 @@ do
 		if [ $last_commit == $tag_commit ]
 		then
 			echo -e "${YELLOW}Tag ${CURRENT_TAG} have the last commit $last_commit...${NC}"
-			cd git_tag_gen_path;
+			cd $git_tag_gen_path;
 			continue
 		else
 			echo -e "${LIGHT_BLUE}Current tag: ${CURRENT_TAG}${NC}" && \
