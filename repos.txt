@@ -5,5 +5,5 @@ Dulce-Work-Schedule/2018.1-Dulce_Report
 Dulce-Work-Schedule/2018.1-Dulce_Sector
 Dulce-Work-Schedule/2018.1-Dulce_Hospital
 Dulce-Work-Schedule/2018.1-Dulce_External_Services
-Dulce-Work-Schedule/2018.1-Dulce_Login
+Dulce-Work-Schedule/2018.1-Dulce_Profile
 Dulce-Work-Schedule/2018.1-Dulce_TagGenerator
