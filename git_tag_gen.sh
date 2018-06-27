@@ -34,7 +34,7 @@ do
 	echo -e "${LIGHT_PURPLE}Checking for repository $CURRENT_REPOSITORY...${NC}"
 	if [ ! -d "$CURRENT_REPOSITORY" ]; then
 		echo -e "${ORANGE}Cloning repository...${NC}"
-		git clone https://github.com/$ORIGIN/$CURRENT_REPOSITORY.git || echo -e "${RED}Failed to clone repository...${NC}" && exit 1
+		git clone https://github.com/$ORIGIN/$CURRENT_REPOSITORY.git || (echo -e "${RED}Failed to clone repository...${NC}" && exit 1)
 	fi
 	cd $CURRENT_REPOSITORY && \
 	git config credential.helper store && \
