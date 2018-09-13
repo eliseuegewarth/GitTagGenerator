@@ -1,5 +1,5 @@
-# GitTagGenerator
-Este projeto tem o intuito de criar tags tags automaticamente.
+# Git Tag Generator
+Este projeto tem o intuito de automatizar a criação de git tags automaticamente.
 
 ## How-To
 
