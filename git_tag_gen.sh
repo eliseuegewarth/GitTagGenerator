@@ -1,7 +1,7 @@
 #!/bin/bash
-NC='\033[0m' && ORANGE='\033[0;33m' && YELLOW='\033[1;33m' && RED='\033[0;31m'
-BLUE='\033[0;34m' && LIGHT_BLUE='\033[1;34m' && LIGHT_PURPLE='\033[1;35m'
-CYAN='\033[0;36m' && LIGHT_CYAN='\033[1;36m'
+#NC='\033[0m' && ORANGE='\033[0;33m' && YELLOW='\033[1;33m' && RED='\033[0;31m'
+#BLUE='\033[0;34m' && LIGHT_BLUE='\033[1;34m' && LIGHT_PURPLE='\033[1;35m'
+#CYAN='\033[0;36m' && LIGHT_CYAN='\033[1;36m'
 
 if [ -z $CRON_JOB_DAY ];
 then
