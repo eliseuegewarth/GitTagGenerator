@@ -14,7 +14,7 @@ else
 	fi
 fi
 
-git_tag_gen_path=$(git rev-parse --show-toplevel)
+#git_tag_gen_path=$(git rev-parse --show-toplevel)
 
 echo "$git_credentials" > ~/.git-credentials;
 git config credential.helper store;
